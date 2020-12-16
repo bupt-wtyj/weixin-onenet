@@ -1,0 +1,15 @@
+/* start.wxss */
+
+.intro {
+  padding: 24px 10%;
+  color: #424242;
+  line-height: 1.5;
+}
+
+.btn1{
+  margin: 20rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

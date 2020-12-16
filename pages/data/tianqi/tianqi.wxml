@@ -1,0 +1,14 @@
+
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" >
+  <block wx:if="{{tabs[0].isActive}}">
+    <canvas class = "canvas" id="chart1"
+canvas-id="Humidity"></canvas>
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}">
+    <canvas class = "canvas" id="chart2"
+canvas-id="Soilhumidity"></canvas></block>
+  <block wx:elif="{{tabs[2].isActive}}">
+    <canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>
+  </block>
+</Tabs>

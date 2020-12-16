@@ -1,0 +1,7 @@
+<!--start.wxml-->
+<view class="intro">
+  目的: 在手机端看到花盆的环境信息(大气湿度, 土壤湿度，温度)，并识别花卉。
+</view>
+<button class="btn1" type="primary" bindtap="navigate">查看设备回传数据</button>
+<button class="btn1" type="primary" bindtap="navigate1">植物识别</button>
+<!-- <button class="btn1" type="primary" bindtap="navigate2">远程控制</button> -->

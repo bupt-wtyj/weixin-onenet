@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+
+<button class="btn1" type="primary" bindtap="watering">浇水</button>
+<button class="btn1" type="primary" bindtap="wateringoff">停止浇水</button>
+<canvas class = "canvas" id="chart2"
+canvas-id="Soilhumidity"></canvas>

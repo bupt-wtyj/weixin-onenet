@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/data/tianqi/tianqi",
+    "pages/upload/upload",
+    "pages/index/index",
+    "pages/index1/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "智能花盆",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/start/start",
+        "text": "功能",
+        "iconPath": "icons/Category.png",
+        "selectedIconPath": "icons/Category (1).png"
+      },
+      {
+        "pagePath": "pages/index1/index",
+        "text": "我的",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my-Selected.png"
+      }
+    ]
+}
+}
