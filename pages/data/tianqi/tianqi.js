@@ -1,7 +1,7 @@
 var myCharts = require("../../../utils/wxcharts.js")//引入一个绘图的插件
 
-const devicesId = "" //自行填写onenet设备id
-const api_key = "" //自行填写apikey
+const devicesId = "657334691" //自行填写onenet设备id
+const api_key = "1VGglee9UCS7BGb=S07twHp3HSI=" //自行填写apikey
 
 Page({
   data: { tabs: [
