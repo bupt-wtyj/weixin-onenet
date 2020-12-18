@@ -51,7 +51,7 @@ Page({
             success: res => { //成功的回调
              // console.log('data:image/png;base64,' + res.data)
           wx.request({
-            url: util.TXAPI_BASE_URL + '/txapi/scanplant/', //垃圾分类接口
+            url: util.TXAPI_BASE_URL + '/txapi/scanplant/', //植物识别接口
             method: 'POST',
             header: {
               'content-type': 'application/x-www-form-urlencoded'
